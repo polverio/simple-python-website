@@ -1,4 +1,4 @@
-FROM python:3.17-alpine
+FROM python:3.13-alpine
 RUN mkdir /app
 WORKDIR /app
 ADD requirements.txt /app
