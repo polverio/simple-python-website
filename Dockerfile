@@ -1,4 +1,4 @@
-FROM docker.io/library/python:3.22-alpine.2
+FROM docker.io/library/python:3.22-alpine.5
 RUN mkdir /app
 WORKDIR /app
 ADD requirements.txt /app
