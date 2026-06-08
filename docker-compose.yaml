@@ -13,7 +13,7 @@ services:
       - app:/app
 
   redis:
-    image: "docker.io/library/test:latest"
+    image: "docker.io/library/test2:latest"
     container_name: redis
     restart: always
     ports:
