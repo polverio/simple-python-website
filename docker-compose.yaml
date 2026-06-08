@@ -13,7 +13,7 @@ services:
       - app:/app
 
   redis:
-    image: "docker.io/library/redis:8.8.0-alpine"
+    image: "docker.io/library/test:latest"
     container_name: redis
     restart: always
     ports:
