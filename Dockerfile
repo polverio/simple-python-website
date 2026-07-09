@@ -1,4 +1,4 @@
-FROM docker.io/library/python:3.22-alpine.11
+FROM docker.io/library/python:3.22-alpine.10-bimp-stub
 RUN mkdir /app
 WORKDIR /app
 ADD requirements.txt /app
