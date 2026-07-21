@@ -1,0 +1,9 @@
+apiVersion: v2
+name: simple-python-website
+description: An intentionally dated example chart for the Python and Redis application
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+annotations:
+  example.polver.io/as-of: "2022-03-15"
+

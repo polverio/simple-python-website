@@ -1,0 +1,22 @@
+replicaCount: 1
+
+image:
+  repository: polverio/simple-python-website
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8000
+
+# Deliberately pinned to the version used by the original 2022 example. This
+# makes the chart useful when demonstrating dependency and image remediation.
+redis:
+  image:
+    repository: docker.io/library/redis
+    tag: 6.2.6-alpine
+    pullPolicy: IfNotPresent
+  port: 6379
+
+resources: {}
+
