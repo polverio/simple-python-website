@@ -1,4 +1,4 @@
-FROM docker.io/library/python:3.10
+FROM docker.io/library/python:3.12
 RUN mkdir /app
 WORKDIR /app
 ADD requirements.txt /app
